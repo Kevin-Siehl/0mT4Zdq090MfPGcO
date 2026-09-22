@@ -7,6 +7,7 @@ An end-to-end machine learning project analyzing demographic, financial, and beh
 ## Executive Summary
 
 Predicting bank term deposit subscriptions presents a significant challenge due to severe class imbalance (only ~7% of prospective customers subscribe). This project evaluates Decision Trees, class weighting strategies, and supplementary behavioral features to maximize subscription detection ($F_1$-score). 
+In particular, the algorithm was able to correctly keep 459 out of 579 subscribers in the test sample, while eliminating 2010 out of 7421 non-subscribers.
 
 Additionally, unsupervised learning techniques (**K-Means Clustering** and **Principal Component Analysis**) were applied to segment subscribing customers into actionable demographic cohorts.
 
